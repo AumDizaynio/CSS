@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        body{
+            align-content: center;
+            justify-content: center;
+        }
+        .boiler{
+            background-color: aliceblue;
+            display: grid;
+            grid-template-rows: 43% 43%;
+            grid-template-columns: 22% 22% 22%;
+        }
+
+        .box{
+            height: 300px;
+            width: 300px;
+            background-color: white;
+            box-shadow: 1px 5px 20px 0px rgb(106, 100, 100);
+            color: rgba(0, 0, 0, 0.733);
+            padding-left: 50px;
+            margin: 7% 7%;
+
+        }
+
+        .box1{
+            margin-top: 200px;
+            border-top: 4px solid cyan;
+            border-radius: 5px;
+        }
+
+        .box2{
+            border-top: 4px solid red;
+            border-radius: 5px;
+
+        }
+
+        .box3{
+            border-top: 4px solid rgb(35, 35, 210);
+            border-radius: 5px;
+            margin-top: 200px;
+
+        }
+
+        .box4{
+            border-top: 4px solid yellow;
+            border-radius: 5px;
+            grid-row: 2/3;
+            grid-column: 2/3;
+        }
+
+        .box > h2{
+            margin-left: 10px;
+            margin-top: 60px;
+        }
+
+        .box>p{
+            color: grey;
+            margin-top: 20px;
+            margin-left: 10px;
+        }
+
+        .emoji{
+            display: inline-block;
+            top: 90px;
+            left: 230px;
+            
+            position: relative;
+            font-size: 40px;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="boiler">
+        <div class="box box1"><h2>Supervisor</h2>
+        <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+            <div class="emoji">	&#128110;</div>
+        </p>
+    </div>
+        <div class="box box2"><h2>Team Builder</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+        <div class="emoji">	&#128515;</div>
+    </div>
+        <div class="box box3">
+        <h2>Caluclator</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+        <div class="emoji">	&#128502;</div>
+    </div>
+        <div class="box box4"><h2>Karma</h2>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</p>
+        <div class="emoji">	&#128507;</div>
+    </div>
+    </div>
+</body>
+</html>

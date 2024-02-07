@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
+      body {
+        background-image: linear-gradient(to right, yellow, hwb(27 8% 15%));
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        width: 100vw;
+      }
+
+      .container {
+        height: 70vh;
+        width: 70vw;
+        background-color: aliceblue;
+        border-radius: 50px;
+        position: absolute;
+        z-index: 1;
+      }
+
+      .z{
+        height: 400px;
+        width: 400px;
+        background-image: linear-gradient(to bottom right, orange,red);
+        border-radius: 20px;
+        left: 100px;
+        position: relative;
+        left:-600px;
+        top: 10px;
+        z-index: 3;
+
+      }
+
+      h3{
+        margin-left: 500px;
+        margin-top: 200px;
+        color: grey;
+      }
+
+      h1{
+        margin-left: 500px;
+        margin-top: 20px;
+      }
+
+      h2{
+        margin-left: 500px;
+        margin-top: 25px;
+        color: grey;
+        margin-right: 100px;
+      }
+      h4{
+            text-align: center;
+            justify-content: center;
+            padding-top:9px;
+            margin:50px 500px;
+            width: 130px;
+            height: 30px;
+            border: 3px solid rgb(232, 45, 166);
+            color: white;
+            background-image: linear-gradient(to right, orange,red);
+            border-radius: 40px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+        <h3>05 February 2024</h3>
+        <h1>Lorem, ipsum dolor</h1>
+        
+        <h2>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur, natus eius dicta quia perferendis fuga atque, odit delectus non sapiente placeat, nisi aperiam quasi molestias quas pariatur facere veritatis mollitia?</h2>
+        <h4>READ MORE</h4>
+    </div>
+    <div class="z"></div>
+  </body>
+</html>
