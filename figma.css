@@ -1064,6 +1064,7 @@ hr {
   justify-content: center;
   align-items: center;
 
+
 }
 
 .lastdivl {
@@ -1081,6 +1082,7 @@ hr {
 .lastdiv > p {
   color: var(--Gray-100, #767d90);
   text-align: right;
+  margin-top: 20px;
 
   /* Body/B4 */
   font-family: Inter;
